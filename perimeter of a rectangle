@@ -1,0 +1,15 @@
+#include<stdio.h>
+//perimeter of a rectangle
+int main(){
+  int a;
+  printf("enter a");
+  scanf("%d",&a);
+
+  int b;
+  printf("enter b");
+  scanf("%d",&b);
+
+  printf("perimeter is %d",2*(a+b));
+  return 0;
+  
+}
